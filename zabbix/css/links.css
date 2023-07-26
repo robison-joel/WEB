@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    font-style: italic;
+}
+
+a.a_menu{
+    font-size: 0.8em;
+}
