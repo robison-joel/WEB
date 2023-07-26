@@ -1,0 +1,52 @@
+#btn_menu {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: auto;
+    height: 60px;
+    padding: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+header label:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0;
+    margin: 0;
+}
+
+header h1 {
+    text-shadow: 1px 1px 1px #000;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 3px #000;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* TITULOS */
+
+h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+

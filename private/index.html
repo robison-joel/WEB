@@ -1,0 +1,370 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+
+    <title>RJGS</title>
+
+    <!-- MetaTag's padrão -->
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- MetaTag's padrão -->
+
+    <!-- CSS meta tags -->
+
+    <link rel="stylesheet" href="css/reset_power.css">
+
+    <link rel="stylesheet" href="css/style_estilos.css">
+
+    <link rel="stylesheet" href="css/style_imgs.css">
+    
+    <link rel="stylesheet" href="css/style_divs.css">
+
+    <link rel="stylesheet" href="css/style_links.css">
+
+    <link rel="stylesheet" href="css/style_media.css">
+    
+    <link rel="stylesheet" href="css/paragrafos.css">
+    
+    <link rel="stylesheet" href="css/geral.css">
+
+    <!-- CSS meta tags -->
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+
+</head>
+
+<body>
+
+    <main>
+
+        <header>
+
+            <input type="checkbox" name="btn_menu" id="btn_menu">
+
+            <!-- ICONE HAMBURGUER  -->
+
+            <label for="btn_menu"><img src="pics/menu.png" class="menu_hamburguer" alt="Menu"></label>
+
+            <!-- ICONE HAMBURGUER  -->
+
+            <!-- MENU  -->
+
+            <nav class="menu">
+
+                <ul>
+
+                    <li><a href="#" target="_self">Início</a></li>
+                    
+                    <li><a href="https://192.168.0.131/" target="_blank">Wordpress</a></li>
+
+                    <li><a href="http://192.168.0.50/geral/" target="_blank">Geral</a></li>
+
+                    <li><a href="religiao/" target="_blank">Religiao</a></li>
+                    
+                    <li><a href="private/" target="_blank">Private</a></li>
+
+                    <li><a href="https://192.168.0.131/wiki/#!index.md" target="_blank">Wiki</a></li>
+
+                    <li><a href="http://192.168.0.123/" target="_blank">Drive</a></li>
+                    
+                    <li><a href="https://192.168.0.100:8006/" target="_blank">HomeCenter</a></li>
+
+                    <li><a href="#">Contato</a></li>
+
+                </ul>
+
+            </nav>
+
+            <!-- MENU  -->
+
+        </header>
+
+        <section>
+
+            <!-- TÍTULO  -->
+
+            <div class="container">
+
+                <img src="pics/logo.png" alt="" class="logo_rjgs">
+
+            </div>
+            
+
+            <!-- TÍTULO  -->
+
+            <!-- RELOGIO -->
+
+            <div class="container">
+
+            <table class="dataehora" id="dataehora">
+
+                <tr>
+                
+                    <td>
+                    
+                    <script type="text/javascript">
+                    <!--
+                    
+                    var now = new Date();
+                    
+                    var mName = now.getMonth() +1 ;
+                    
+                    var dName = now.getDay() +1;
+                    
+                    var dayNr = now.getDate();
+                    
+                    var yearNr=now.getYear();
+                    
+                    if(dName==1) {Day = "Domingo";}
+                    
+                    if(dName==2) {Day = "Segunda-feira";}
+                    
+                    if(dName==3) {Day = "Terça-feira";}
+                    
+                    if(dName==4) {Day = "Quarta-feira";}
+                    
+                    if(dName==5) {Day = "Quinta-feira";}
+                    
+                    if(dName==6) {Day = "Sexta-feira";}
+                    
+                    if(dName==7) {Day = "Sábado";}
+                    
+                    if(mName==1){Month = "Janeiro";}
+                    
+                    if(mName==2){Month = "Fevereiro";}
+                    
+                    if(mName==3){Month = "Março";}
+                    
+                    if(mName==4){Month = "Abril";}
+                    
+                    if(mName==5){Month = "Maio";}
+                    
+                    if(mName==6){Month = "Junho";}
+                    
+                    if(mName==7){Month = "Julho";}
+                    
+                    if(mName==8){Month = "Agosto";}
+                    
+                    if(mName==9){Month = "Setembro";}
+                    
+                    if(mName==10){Month = "Outubro";}
+                    
+                    if(mName==11){Month = "Novembro";}
+                    
+                    if(mName==12){Month = "Dezembro";}
+                    
+                    if(yearNr < 2000) {Year = 1900 + yearNr;}
+                    
+                    else {Year = yearNr;}
+                    
+                    var todaysDate =(" " + Day + ", " + dayNr + " de " + Month + " de " + Year);
+                    
+                    document.write('  '+todaysDate);
+                    
+                    //-->
+                    </script>
+
+                    </td>
+                
+                    <td>&nbsp;- &nbsp;</td>
+                
+                    <td>
+                    
+                    <div id="Clock">00:00:00</div>
+                    
+                    <script type="text/javascript">
+                    <!--
+                    
+                      var Elem = document.getElementById("Clock");
+                    
+                      function Horario(){ 
+                    
+                        var Hoje = new Date(); 
+                    
+                        var Horas = Hoje.getHours(); 
+                    
+                        if(Horas < 10){ 
+                        
+                          Horas = "0"+Horas; 
+                        } 
+                    
+                        var Minutos = Hoje.getMinutes(); 
+                    
+                        if(Minutos < 10){ 
+                        
+                          Minutos = "0"+Minutos; 
+                        }
+                    
+                        var Segundos = Hoje.getSeconds(); 
+                    
+                        if(Segundos < 10){ 
+                        
+                          Segundos = "0"+Segundos; 
+                        } 
+                    
+                        Elem.innerHTML = Horas+":"+Minutos+":"+Segundos; 
+                        } 
+                    
+                        window.setInterval("Horario()",1000);
+                    
+                    //-->
+                    </script>
+
+                    </td>
+                
+                </tr>
+                
+            </table>
+
+            </div>
+
+
+            <!-- RELOGIO -->
+
+            <!-- CONTATOS -->
+
+            <div class="container">
+            
+                <table>
+                
+                    <tr>
+                    
+                        <td>
+                        
+                            <a href="https://api.whatsapp.com/send?phone=5551995055383&text=Ola!%Estou%entrando%em%contato%através%do%site." target="_blank" title="Whatsapp"><img src="pics/whatsapp48.png" width="50px"></a>        
+                        
+                        </td>
+                    
+                        <td>
+                        
+                            <a href="http://www.messenger.com/t/rjgstrue" target="_blank" title="Facebook Messenger"><img src="pics/facebook-messenger48.png" width="50px"></a>
+                        
+                        </td>
+                        
+                        <td>
+    
+                            <a href="https://www.linkedin.com/in/robisonjoel/" target="_blank" title="Linkedin"><img src="pics/linkedin.png" alt="Linkedin" width="45px"></a>
+                                                    
+                        </td>
+                        
+                        <td>
+                            
+                            <a href="mailto:rjgsinfo@gmail.com" title="rjgsinfo@gmail.com" target="_blank"><img src="pics/email-48.png" width="50px"></a>
+                            
+                        </td>
+                        
+                        <td>
+                        
+                            <a href="https://github.com/robison-joel" target="_blank" title="github.com/robison-joel"><img src="pics/grithub.png" width="45px"></a>
+                        
+                        </td>
+                        
+
+
+                    </tr>
+
+                </table>
+            
+                <table>
+
+                    <tr>
+
+                        <td><a href="https://drive.google.com/" target="_blank" title="Google Drive"><img src="pics/logos/google_drive.png"></a></td><td><a href="https://drive.google.com/" target="_blank" title="Google Drive"><img src="pics/logos/google_drive.png"></a>
+                        
+                        </td><td>Usuario: Google <br />Senha: Google</td></td><td>Usuario: Google <br />Senha: Google</td>
+
+                    </tr>
+
+                </table>
+
+
+            </div>
+
+            <!-- CONTATOS -->
+
+            <!-- BLOG
+            
+            <div class="container">
+                
+                <h2>BLOG</h2>
+
+                <h3>Nova versão do Site em rjgs.</h3> <p class="data">28/03/2023 - 21:10</p>
+
+                <p class="dosection">
+
+                    Colocamos uma nova versão do site hospedado no meu servidor de casa.
+
+                </p>                
+                
+            </div>
+            
+
+             -->
+
+            <div class="container">
+
+                <h2>Conteúdo</h2>
+
+                <ul>
+
+                    <li><h4>Geral:</h4>
+                        
+                        <p class="dosection">Conteúdo do portfólio.</p>
+                    
+                    </li>    
+
+                    <li>
+                        <h4>RJGS Wiki:</h4>
+
+                        <p class="dosection">Wikipédia para procedimentos de informática e Linux.</p>
+                    
+                    </li>
+
+                    <li>
+                        
+                        <h4>Drive:</h4>
+                    
+                        <p class="dosection">Arquivos necessários para download.</p>
+                    
+                    </li>
+
+                </ul>
+
+            </div>
+            
+        </section>
+
+        <!-- RODAPE  -->
+
+        <footer>
+
+            RJGS Web Development, since 2008.
+
+        </footer>
+
+        <!-- RODAPE  -->
+
+    </main>
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

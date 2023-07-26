@@ -1,0 +1,15 @@
+/* 
+##########
+PARAGRAFOS
+##########
+*/
+
+p.data{
+    font-style: italic;
+}
+
+p.dosection {
+    text-align: justify;
+    text-indent: 30px;
+    background-color: rgba(0, 0, 0, 0.74);
+}

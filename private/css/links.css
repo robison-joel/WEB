@@ -1,0 +1,23 @@
+/* 
+#####
+LINKS
+#####
+*/
+
+a.linkcomum:link {
+    text-decoration: none;
+    color: #999;
+    text-shadow: 2px 2px 2px #222;
+}
+
+a.linkcomum:hover {
+    text-decoration: none;
+    color: #888;
+    font-style: italic;
+}
+
+a.linkcomum:visited {
+    text-decoration: none;
+    color: #999;
+    text-shadow: 2px 2px 2px #222;
+}

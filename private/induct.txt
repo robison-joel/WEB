@@ -1,0 +1,162 @@
+
+
+
+
+
+<table>
+
+    <tr>
+    
+        <td>
+        
+            <a href="https://api.whatsapp.com/send?phone=5551995055383&text=Ola!%Estou%entrando%em%contato%através%do%site." target="_blank">Whatsapp</a>        
+        
+        </td>
+    
+    </tr>
+    
+    <tr>
+    
+        <td>
+        
+            <a href="http://www.messenger.com/t/rjgstrue" target="_blank">Messenger Facebook</a>
+        
+        </td>
+    
+    </tr>
+    
+    <tr>
+    
+        <td>
+        
+            <a href="mailto:rjgsinfo@gmail.com" title="rjgsinfo@gmail.com" target="_blank">E-mail</a>
+        
+        </td>
+    
+    </tr>
+        
+</table>
+
+
+
+
+
+<a href="https://api.whatsapp.com/send?phone=5551995055383&text=Ola!%Estou%entrando%em%contato%através%do%site." target="_blank"><img src="https://imagensbrasil.org/images/2020/12/23/tele_transp.png" alt="Banner" class="img-fluid"></a>
+
+    -----------------------------------------------------------------------------------------
+
+<!-- DATA E HORA -->
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-xl-3 col-sm-12" id="sauda"></div>
+
+            <div class="col" id="hoje"></div>
+
+            <div class="col-xl-3 col-sm-12" id="rel"></div>
+        </div>
+
+    </div>
+
+    <!-- DATA E HORA -->
+    
+    -----------------------------------------------------------------------------------------
+    
+    </li>
+
+        <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                
+                GitHub
+                
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                <a class="dropdown-item" href="https://github.com/" target="_blank">Github.com</a>
+
+                <a class="dropdown-item" href="https://github.com/robison-joel/" target="_blank">robison-joel</a>
+
+                <a class="dropdown-item" href="https://github.com/robison-joel/robison-joel.github.io/" target="_blank">robison-joel.github.io</a>
+
+                <a class="dropdown-item" href="https://github.com/robison-joel/scripts/" target="_blank">robison-joel/scripts</a>
+
+                <a class="dropdown-item" href="https://github.com/rjgsserver/" target="_blank">rjgsserver</a>
+
+                <a class="dropdown-item" href="https://github.com/rjgsserver/rjgsserver.github.io/" target="_blank">rjgsserver.github.io</a>
+
+            </div>
+
+                </li>
+                
+    -----------------------------------------------------------------------------------------
+    
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <a class="dropdown-item" href="https://drive.google.com/" target="_blank">Google Drive</a>
+
+                        <a class="dropdown-item" href="https://www.dropbox.com/" target="_blank">Dropbox</a>
+
+                        <a class="dropdown-item" href="https://onedrive.live.com/" target="_blank">OneDrive</a>
+
+                        <a class="dropdown-item" href="https://mega.nz/">Mega</a>
+
+
+                    </div>
+                    
+                    
+    -----------------------------------------------------------------------------------------
+    
+     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/robisonjoel/" target="_blank">Linkedin</a>
+
+                        <a class="dropdown-item" href="https://facebook.com/rjgstrue/" target="_blank">Facebook</a>
+
+                    </div>
+
+                </li>
+
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        
+                        Currículo
+                        
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                        <a class="dropdown-item" href="curriculo.html" target="_blank">Curriculo</a>
+
+                        <a class="dropdown-item" href="curriculo.html#id_objetivo" target="_blank">Objetivo</a>
+
+                        <a class="dropdown-item" href="curriculo.html#id_dados" target="_blank">Dados Pessoais</a>
+
+                        <a class="dropdown-item" href="curriculo.html#id_formacao" target="_blank">Formação</a>
+
+                        <a class="dropdown-item" href="curriculo.html#id_experiencias" target="_blank">Experiências</a>
+
+                        <a class="dropdown-item" href="curriculo.html#id_informatica" target="_blank">Informática</a>
+
+                        <a class="dropdown-item" href="curriculo.html#id_idiomas" target="_blank">Idiomas</a>
+
+                        <a class="dropdown-item" href="curriculo.html#id_capacitacao" target="_blank">Capacitação</a>
+
+                        <a class="dropdown-item" href="curriculo.html#id_areas" target="_blank">Áreas de atuação</a>
+
+                        <a class="dropdown-item" href="curriculo.html#id_informacoes" target="_blank">Informações</a>
+
+                    </div>
+                    
+                    
+                    
+                    
+    ------------------------------------------------------------------------------------------------------
+    
+    
+    
+
