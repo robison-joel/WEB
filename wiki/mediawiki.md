@@ -74,12 +74,15 @@ Adicionando o usuario atual no grupo de execução do apache
 Status do servidor
 
 Status do servidor
+
 `systemctl status apache2`
 
 Inicia o servidor
+
 `systemctl start apache2`
 
 Reinicia o servidor
+
 `systemctl restart apache2`
 
 PHP
